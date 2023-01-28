@@ -11,6 +11,8 @@ html {
 
 body{
     height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 .header{
@@ -22,6 +24,8 @@ body{
     padding-left: 1.6rem;
 }
 
+/*Principal Contain*/
+
 .container {
     width: 100%;
     height: 100%;
@@ -29,6 +33,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* Encriptador section */
 
 .encriptador{
     width: 100%;
@@ -47,6 +53,8 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* Response screen encriptador section */
 
 .responsescreen {
     width: 100%;
