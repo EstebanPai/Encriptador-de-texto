@@ -52,7 +52,9 @@ body{
 }
 
 .encriptador__text{
-    width: 36rem;
+    width: 98%;
+    max-width: 110rem;
+    min-width: 36rem;
     min-height: 35.5rem;
     border: none;
     background-color: var(--ligth-blue-300);
