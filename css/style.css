@@ -52,11 +52,12 @@ body{
 }
 
 .encriptador__text{
-    width: 98%;
+    width: 96%;
     max-width: 110rem;
     min-width: 36rem;
     min-height: 35.5rem;
     border: none;
+    border-radius: 1.2rem;
     background-color: var(--ligth-blue-300);
     font-family: 'Inter';
     font-weight: 400;
@@ -71,6 +72,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.encriptador__buttons .button {
+    width: 34.2rem;
+    height: 6.8rem;
+    border-radius: 2.4rem;
+    border: .1rem solid var(--dark-blue-300);
 }
 
 /* Response screen encriptador section */
