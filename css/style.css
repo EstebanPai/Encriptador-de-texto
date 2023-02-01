@@ -56,13 +56,23 @@ body{
     max-width: 110rem;
     min-width: 36rem;
     min-height: 35.5rem;
-    border: none;
-    border-radius: 1.2rem;
-    background-color: var(--ligth-blue-300);
+    color: var(--dark-blue-300);
     font-family: 'Inter';
     font-weight: 400;
     font-size: 3.2rem;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0 0 0 .6rem;
+    background-color: var(--ligth-blue-300);
+}
+
+.encriptador__text::placeholder{
     color: var(--dark-blue-300);
+}
+
+.encriptador__text:focus {
+    border: .1rem solid var(--dark-blue-300);
+    outline: 0 none;
 }
 
 .encriptador__buttons {
@@ -71,14 +81,27 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .encriptador__buttons .button {
     width: 34.2rem;
     height: 6.8rem;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
     border-radius: 2.4rem;
     border: .1rem solid var(--dark-blue-300);
+}
+
+.btn_encriptar {
+    color: white;
+    background-color: var(--dark-blue-300);
+}
+
+.btn_desencriptar {
+    color: var(--dark-blue-300);
+    background-color: white;
 }
 
 /* Response screen encriptador section */
