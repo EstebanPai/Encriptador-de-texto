@@ -1,6 +1,7 @@
 :root {
     --ligth-blue-300: #E9ECF8;
     --dark-blue-300: #0A3871;
+    --gray-400: #495057;
 }
 
 * {
@@ -44,7 +45,7 @@ body{
 
 .encriptador{
     width: 100%;
-    min-height: 65%;
+    min-height: 56.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +74,20 @@ body{
 .encriptador__text:focus {
     border: .1rem solid var(--dark-blue-300);
     outline: 0 none;
+}
+
+.advice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1.6rem 0;
+    font-size: 1.2rem;
+}
+
+.advice__text {
+    color: var(--gray-400);
+    margin-left: .8rem;
 }
 
 .encriptador__buttons {
@@ -108,7 +123,7 @@ body{
 
 .responsescreen {
     width: 100%;
-    min-height: 35%;
+    min-height: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
