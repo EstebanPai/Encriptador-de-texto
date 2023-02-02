@@ -66,6 +66,7 @@ body{
     border-radius: 1.2rem;
     padding: 0 0 0 .6rem;
     background-color: var(--ligth-blue-300);
+    resize: none;
 }
 
 .encriptador__text::placeholder{
