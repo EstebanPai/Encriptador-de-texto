@@ -101,7 +101,7 @@ body{
     justify-content: space-between;
 }
 
-.encriptador__buttons .button {
+.button {
     width: 34.2rem;
     height: 6.8rem;
     font-family: 'Inter';
@@ -118,7 +118,7 @@ body{
 
 .btn_desencriptar {
     color: var(--dark-blue-300);
-    background-color: white;
+    background-color: var(--ligth-blue-300);
 }
 
 /* Response screen encriptador section */
@@ -133,7 +133,7 @@ body{
 
 .responsescreen__response {
     width: 32.8rem;
-    height: 18.8rem;
+    min-height: 18.8rem;
     padding: 3.2rem;
     display: flex;
     flex-direction: column;
@@ -141,7 +141,8 @@ body{
     align-items: center;
     font-family: 'Inter';
     border-radius: 3.0rem;
-    box-shadow: 0px 0px 32px 8px rgba(5, 5, 5, 0.203);; 
+    box-shadow: 0px 0px 32px 8px rgba(5, 5, 5, 0.203);
+    background-color: white;
 }
 
 .responseh2 {
@@ -156,6 +157,14 @@ body{
     font-weight: 400;
     font-size: 1.6rem;
     color: var(--gray-400);
+}
+
+.btn_copiar {
+    width: 28rem;
+    height: 6.8rem;
+    margin-top: 3.2rem;
+    background-color: white;
+    display: none;
 }
 
 /*Estilos para dispositivos 375px finalizados*/
