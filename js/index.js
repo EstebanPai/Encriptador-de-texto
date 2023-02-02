@@ -36,11 +36,11 @@ const encrypt = () => {
     showTextEncrypted(textAreaContent);
 };
 
-const textArea = document.querySelector('.encriptador__text');
+const textArea = document.querySelector('.encrypter__text');
 const responseScreenResponse = document.querySelector('.responsescreen__response'); 
 const responseH2 = document.querySelector('.responseh2');
 const responseP = document.querySelector('.responsep');
 const btnEncrypt = document.querySelector('.btn_encrypt');
 const btnCopy = document.querySelector('.btn_copy');
 
-btnEncriptar.addEventListener('click', encrypt);
+btnEncrypt.addEventListener('click', encrypt);

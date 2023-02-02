@@ -44,7 +44,7 @@ body{
 
 /* Encriptador section */
 
-.encriptador{
+.encrypter{
     width: 100%;
     min-height: 56.5rem;
     display: flex;
@@ -53,7 +53,7 @@ body{
     justify-content: space-between;
 }
 
-.encriptador__text{
+.encrypter__text{
     width: 96%;
     max-width: 110rem;
     min-width: 36rem;
@@ -69,11 +69,11 @@ body{
     resize: none;
 }
 
-.encriptador__text::placeholder{
+.encrypter__text::placeholder{
     color: var(--dark-blue-300);
 }
 
-.encriptador__text:focus {
+.encrypter__text:focus {
     border: .1rem solid var(--dark-blue-300);
     outline: 0 none;
 }
@@ -111,12 +111,12 @@ body{
     border: .1rem solid var(--dark-blue-300);
 }
 
-.btn_encriptar {
+.btn_encrypt {
     color: white;
     background-color: var(--dark-blue-300);
 }
 
-.btn_desencriptar {
+.btn_decrypt {
     color: var(--dark-blue-300);
     background-color: var(--ligth-blue-300);
 }
@@ -160,7 +160,7 @@ body{
     color: var(--gray-400);
 }
 
-.btn_copiar {
+.btn_copy {
     width: 28rem;
     height: 6.8rem;
     margin-top: 3.2rem;
