@@ -1,4 +1,4 @@
-const showTextEncript = (text) => {
+const showTextEncrypted = (text) => {
     responseH2.style.display = 'none';
     responseP.style.textAlign = 'left';
     responseP.style.fontSize = '2.4rem';
@@ -6,7 +6,7 @@ const showTextEncript = (text) => {
     btnCopy.style.display = 'block';
 };
 
-const encriptar = () => {
+const encrypt = () => {
     let textAreaContent = textArea.value
     textAreaContent = textAreaContent.toLowerCase();
     textAreaContent = textAreaContent.split('');
@@ -33,14 +33,14 @@ const encriptar = () => {
         return char;
     })
     textAreaContent = textAreaContent.join('');
-    showTextEncript(textAreaContent);
+    showTextEncrypted(textAreaContent);
 };
 
 const textArea = document.querySelector('.encriptador__text');
 const responseScreenResponse = document.querySelector('.responsescreen__response'); 
 const responseH2 = document.querySelector('.responseh2');
 const responseP = document.querySelector('.responsep');
-const btnEncriptar = document.querySelector('.btn_encriptar');
-const btnCopy = document.querySelector('.btn_copiar');
+const btnEncrypt = document.querySelector('.btn_encrypt');
+const btnCopy = document.querySelector('.btn_copy');
 
-btnEncriptar.addEventListener('click', encriptar);
+btnEncriptar.addEventListener('click', encrypt);
