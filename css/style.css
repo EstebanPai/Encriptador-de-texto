@@ -137,7 +137,7 @@ body{
     padding: 3.2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Inter';
     border-radius: 3.0rem;
@@ -153,6 +153,7 @@ body{
 }
 
 .responsep {
+    width: 100%;
     text-align: center;
     font-weight: 400;
     font-size: 1.6rem;
