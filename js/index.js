@@ -6,6 +6,11 @@ const showTextOnResponseScreen = (text) => {
     btnCopy.style.display = 'block';
 };
 
+const copyToClipboard = () => {
+    let responseText = responseP.textContent;
+    navigator.clipboard.writeText(responseText);
+};
+
 const decrypt = () => {
     let textAreaContent = textArea.value
     textAreaContent = textAreaContent.replaceAll(/ai/g, 'a');
@@ -56,3 +61,4 @@ const btnCopy = document.querySelector('.btn_copy');
 
 btnEncrypt.addEventListener('click', encrypt);
 btnDecrypt.addEventListener('click', decrypt);
+btnCopy.addEventListener('click', copyToClipboard);
