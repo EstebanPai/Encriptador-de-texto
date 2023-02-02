@@ -2,6 +2,7 @@
     --ligth-blue-300: #E9ECF8;
     --dark-blue-300: #0A3871;
     --gray-400: #495057;
+    --gray-500:  #343A40;
 }
 
 * {
@@ -125,7 +126,33 @@ body{
     width: 100%;
     min-height: 30rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.responsescreen__response {
+    width: 32.8rem;
+    height: 18.8rem;
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Inter';
+    border-radius: 3.0rem;
+    box-shadow: 0px 0px 32px 8px rgba(5, 5, 5, 0.203);; 
+}
+
+.responseh2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: var(--gray-500);
+}
+
+.responsep {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--gray-400);
 }
