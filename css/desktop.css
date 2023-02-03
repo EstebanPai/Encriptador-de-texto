@@ -1,3 +1,44 @@
 * {
     background-color:aqua;
 }
+
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    height: 12.2rem;
+}
+
+.container {
+    padding: 4rem 4rem 0 16rem;
+}
+
+.encrypter .encrypter__text + div {
+    margin-bottom: 7.2rem;
+}
+
+.encrypter__buttons {
+    width: 68rem;
+}
+
+.button {
+    width: 32.8rem;
+}
+
+.responsescreen {
+    width: 45rem;
+    height: 98rem;
+    padding: 7.2rem 4rem;
+}
+
+.responsescreen__response {
+    width: 38rem;
+    height: 100%;
+}
+
+.muñecoresponse{
+    display: block;
+}

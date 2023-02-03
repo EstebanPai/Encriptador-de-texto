@@ -14,39 +14,42 @@
         <title>Encriptador de texto | Alura</title>
     </head>
     <body>
-        <header class="header">
-            <a href="#">
-                <picture>
-                    <source media="(min-width: 1023px)" srcset="./images/Logo.png">
-                    <img src="./images/logosvg.svg" alt="Logo Alura" class="logo">
-                </picture>
-            </a>
-        </header>
-        <main class="container">
-            <section class="encrypter">
-                <textarea class="encrypter__text" placeholder="Ingrese el texto aquí" autofocus required></textarea>
-                <div>
-                    <div class="advice">
-                        <img src="./images/exclamation-circle.png" alt="Logo exclamacion">
-                        <span class="advice__text" >Solo letras minusculas y sin acentos</span>
+        <div class="dkview">
+            <header class="header">
+                <a href="#">
+                    <picture>
+                        <source media="(min-width: 1023px)" srcset="./images/Logo.png">
+                        <img src="./images/logosvg.svg" alt="Logo Alura" class="logo">
+                    </picture>
+                </a>
+            </header>
+            <main class="container">
+                <section class="encrypter">
+                    <textarea class="encrypter__text" placeholder="Ingrese el texto aquí" autofocus required></textarea>
+                    <div>
+                        <div class="advice">
+                            <img src="./images/exclamation-circle.png" alt="Logo exclamacion">
+                            <span class="advice__text" >Solo letras minusculas y sin acentos</span>
+                        </div>
+                        <div class="encrypter__buttons">
+                            <button class="button btn_encrypt">Encriptar</button>
+                            <button class="button btn_decrypt">Desencriptar</button>
+                        </div>
                     </div>
-                    <div class="encrypter__buttons">
-                        <button class="button btn_encrypt">Encriptar</button>
-                        <button class="button btn_decrypt">Desencriptar</button>
-                    </div>
-                </div>
-            </section>
-            <section class="responsescreen">
-                <div class="responsescreen__response">
-                    <h2 class="responseh2">
-                        Ningún mensaje fue encontrado
-                    </h2>
-                    <p class="responsep">
-                        Ingresa el texto que desees encriptar o desencriptar
-                    </p>
-                    <button class="button btn_copy">Copiar</button>
-                </div>
-            </section>
-        </main>
+                </section>
+            </main>
+        </div>
+        <aside class="responsescreen">
+            <div class="responsescreen__response">
+                <img class="muñecoresponse" src="./images/Muñeco.svg" alt="Muñeco" />
+                <h2 class="responseh2">
+                    Ningún mensaje fue encontrado
+                </h2>
+                <p class="responsep">
+                    Ingresa el texto que desees encriptar o desencriptar
+                </p>
+                <button class="button btn_copy">Copiar</button>
+            </div>
+        </aside>
     </body>
 </html>
