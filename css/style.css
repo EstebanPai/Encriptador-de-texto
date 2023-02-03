@@ -25,20 +25,23 @@ body{
 
 .header{
     width: 100%;
-    height: 9.6rem;
+    height: 25vw;
+    min-height: 9.3rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-left: 1.6rem;
+    transition: height 0.8s 0s ease, padding 0.8s 0s ease;
 }
 
-/*Principal Contain*/
+/*Principal Container*/
 
 .container {
     width: 100%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    transition: padding 0.8s 0s ease;
 }
 
 /* Encriptador section */
@@ -53,9 +56,10 @@ body{
 
 .encrypter__text{
     width: 96%;
-    max-width: 110rem;
+    max-width: 68.8rem;
     min-width: 36rem;
     min-height: 30rem;
+    height: 30rem;
     color: var(--dark-blue-300);
     font-family: 'Inter';
     font-weight: 400;
@@ -65,6 +69,7 @@ body{
     padding: 0 0 0 .6rem;
     background-color: var(--ligth-blue-300);
     resize: none;
+    transition: height 0.8s 0s ease;
 }
 
 .encrypter .encrypter__text + div {
@@ -100,6 +105,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    transition: margin 0.8s 0s ease;
 }
 
 .button {
@@ -110,6 +116,7 @@ body{
     font-weight: 400;
     border-radius: 2.4rem;
     border: .1rem solid var(--dark-blue-300);
+    transition: width 0.8s 0s ease;
 }
 
 .btn_encrypt {
@@ -127,24 +134,28 @@ body{
 .responsescreen {
     width: 100%;
     min-height: 40%;
+    padding: 4rem 2.4rem;
+    padding-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .responsescreen__response {
-    width: 32.8rem;
+    width: 100%;
+    min-width: 32.8rem;
     min-height: 18.8rem;
     padding: 3.2rem;
-    margin: 4rem 2.4rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-family: 'Inter';
     border-radius: 3.0rem;
-    box-shadow: 0px 0px 32px 8px rgba(5, 5, 5, 0.203);
+    box-shadow: 0px 0px 44px 6px rgba(5, 5, 5, 0.195);
     background-color: white;
+    transition: width 1s 0s ease, height 1s 0s ease;
 }
 
 .responseh2 {
@@ -152,6 +163,7 @@ body{
     font-weight: 700;
     font-size: 2.4rem;
     color: var(--gray-500);
+    background-color: white;
 }
 
 .responsep {
@@ -160,6 +172,8 @@ body{
     font-weight: 400;
     font-size: 1.6rem;
     color: var(--gray-400);
+    background-color: white;
+    word-break: break-all;
 }
 
 .btn_copy {

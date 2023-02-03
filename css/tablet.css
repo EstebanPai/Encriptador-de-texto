@@ -1,3 +1,55 @@
-* {
-    background-color: red;
+.header {
+    max-height: 19.2rem;
+    padding-left: 4rem;
 }
+
+/*Principal Container*/
+
+.container {
+    padding: 4rem;
+}
+
+/* Encriptador section */
+
+.encrypter__text{
+    width: 100%;
+    height: 56.6rem;
+    transition: height 0.8s 0s linear;
+}
+
+.encrypter .encrypter__text + div {
+    margin: 6.4rem 0;
+    transition: margin 0.8s 0s linear;
+}
+
+.advice {
+    margin-left: 0;
+}
+
+.encrypter__buttons{
+    height: 6.8rem;
+    flex-direction: row;
+}
+
+.button{
+    width: 33.2rem;
+}
+
+/* Response screen encriptador section */
+
+
+.responsescreen{
+    padding: 0;
+}
+
+.responsescreen__response{
+    width: 100%;
+    min-height: 13.2rem;
+    margin: 0;
+}
+
+.btn_copy{
+    width: 62.4rem;
+}
+
+/* Estilos para dispositivos de 767px finalizados */
