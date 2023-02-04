@@ -1,6 +1,8 @@
 :root {
+    --ligth-dark-blue-300: #c6ced7;
     --ligth-blue-300: #E9ECF8;
     --dark-blue-300: #0A3871;
+    --dark-blue-600: #0c294c;
     --gray-400: #495057;
     --gray-500:  #343A40;
 }
@@ -185,6 +187,19 @@ body{
     margin-top: 3.2rem;
     background-color: white;
     display: none;
+}
+
+.btn_copy:hover, .btn_decrypt:hover {
+    background-color: var(--ligth-dark-blue-300);
+    cursor: pointer;
+    transition: background 0.5s 0s ease;
+}
+
+.btn_encrypt:hover {
+    background-color: var(--dark-blue-600);
+    border: 1px solid var(--ligth-blue-300);
+    cursor: pointer;
+    transition: background 0.5s 0s ease, border 0.5s 0s ease;
 }
 
 /*Estilos para dispositivos 375px finalizados*/
