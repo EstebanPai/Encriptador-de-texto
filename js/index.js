@@ -1,7 +1,10 @@
 const showTextOnResponseScreen = (text) => {
+    responseScreenResponse.style.justifyContent = 'space-between';
+    muñeco.style.display = 'none';
     responseH2.style.display = 'none';
     responseP.style.textAlign = 'left';
     responseP.style.fontSize = '2.4rem';
+    responseP.style.overflowY = 'scroll';
     responseP.textContent = text;
     btnCopy.style.display = 'block';
 };
@@ -58,6 +61,7 @@ const responseP = document.querySelector('.responsep');
 const btnEncrypt = document.querySelector('.btn_encrypt');
 const btnDecrypt = document.querySelector('.btn_decrypt');
 const btnCopy = document.querySelector('.btn_copy');
+const muñeco = document.querySelector('.muñecoresponse');
 
 btnEncrypt.addEventListener('click', encrypt);
 btnDecrypt.addEventListener('click', decrypt);

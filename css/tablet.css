@@ -6,7 +6,7 @@
 /*Principal Container*/
 
 .container {
-    padding: 4rem;
+    padding: 4rem 4rem 0 4rem;
 }
 
 /* Encriptador section */
@@ -39,7 +39,7 @@
 
 
 .responsescreen{
-    padding: 0;
+    padding: 0 4rem 4rem 4rem;
 }
 
 .responsescreen__response{
